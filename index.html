@@ -1,27 +1,140 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Angel Lopez</title>
+	<style>
+		body {
+			background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/asanoha-400px.png');
+			float: center;
+			min-width: 500px;
+			font-family: 'Taviraj', serif, Arial;
+			margin: 0;
+		}
+
+		.main	{
+			text-align: center;
+		}
+
+		header {
+			background-color: rgba(168, 50, 130, 0.5);
+			margin: 0px -10px;
+			margin-top: -10px;
+			padding: 2em;
+			padding-left: 10%;
+		}
+
+		h2, h3 {
+			margin: 0px;
+		}
+
+		#laptop {
+			width: 20%;
+			float: right;
+			padding-right: 10%;
+		}
+
+		#links {
+			margin: 0px -10px;
+			padding: 5px 0px;
+			display: block;
+			text-align: center;
+			background: rgba(100, 100, 100, 0.3);
+			/*position: absolute;*/
+			margin-bottom: -10px;
+		}
+
+		.icon {
+			width: 45px;
+			margin: 0px 20px;
+		}
+
+		.proimg {
+			width: 500px;
+		}
+
+		#projects {
+			text-align: center;
+		}
+
+		#projects ul {
+			list-style-type: none;
+			/*columns: 2;
+			-webkit-columns: 2;
+			-moz-columns: 2; */
+		}
+
+		#projects li {
+			height: inherit;
+			width: 100%;
+			margin-bottom: 10%;
+		}
+		#projects p {
+			display: block;
+			text-align: center;
+			padding: 0px 15%;
+		}
+		#projects h2 {
+			padding: 1em;
+			text-align: center;
+			font-size: 2rem;
+			background: rgba(100, 100, 100, 0.3);
+			margin: 0px;
+		}
+
+		main {
+			margin: 0px -10px;
+		}
+	</style>
+
+	<title>Angel Lopez</title>
+	<link href="https://fonts.googleapis.com/css?family=Taviraj" rel="stylesheet">
 </head>
 
 <body>
-  <h1>Hey</h1>
+	<header>
+		<img id="laptop" src="http://image.flaticon.com/icons/svg/182/182581.svg" alt="">
+		<h2>Hey, </h2>
+		<h1>I'm Angel Lopez</h1>
+		<h3 id="titles">Full-stack Web Developer. <br>
+			Business Technology Management &amp Entrepreneurship Student. <br>
+			Baker/Cake Decorator.</h3>
 
-<p>I'm Angel Lopez. </p>
+	</header>
+	<main>
 
-Full-stack Web Developer
-Baker/Cake Decorator
-Business Technology Management student
+		<div id="projects">
+			<h2>Projects</h2>
+			<ul>
+				<li><h3>Ripple</h3><br>
+				<a href="http://rippleripple.herokuapp.com/"><img src="https://docs.google.com/uc?id=0B6-UKRJF4BHIVzlhSXFuQkowdlU" class="proimg"></a>
+					<p>Ripple was my final project from Web Development Immersive at Bitmaker. It's online-dating meets charitable causes.
+						Through a survey and selectable contribution methods like monetery, volunteer, or service,
+						Ripple matches you up with organizations that are geared towards the causes you care about the most
+						and offer you actionable ways to contribute. Built on Ruby on Rails and uses the Foundation framework.</p></li>
+				<li><h3>BitBroker</h3><br>
+				<a href="https://github.com/theAngeLopez/bitcoin_stock_electron"><img src="https://docs.google.com/uc?id=0B6-UKRJF4BHIN3FZMTBpTElmLUU" class="proimg"></a>
+					<p>An electron app that allows you to view Bitcoin prices in real time as a native app on your desktop; A mini project that uses the Electron framework.</p></li>
+				<li><h3>LiveGauge Sensor GUI</h3><br>
+				<img src="https://docs.google.com/uc?id=0B6-UKRJF4BHIUDhKSVcwTjV3T0U" class="proimg">
+					<p>A GUI for LiveGauge experiential marketing sensors for customer-facing support and use.
+						Meant to make retreiving and updating hardware/software information user-friendly for clients. Uses the Electron framework.</p></li>
+				<li><h3>EventTechInsider</h3><br>
+				<a href="http://eventtechinsider.com/"><img src="https://docs.google.com/uc?id=0B6-UKRJF4BHIWnd6N1dtcXJtTU0" class="proimg"></a>
+					<p>A marketing strategic blog site built on Wordpress. Designed logo and schemes for the site.</p></li>
+			</ul>
+		</div>
 
-<h2>Connect</h2>
-<ul>
-  <li><a href="https://github.com/theAngeLopez"></a> github</li>
-  <li><a href="https://ca.linkedin.com/in/theangelopez"></a> linkedin</li>
-  <li><a href="https://twitter.com/theAngeLopez"></a> twitter</li>
-  <li><a mailto:="angel@angelopez.ca"></a> email</li>
-</ul>
+		<div id="links">
+			<h2>Get in touch:</h2>
+			<ul>
+				<a href="mailto:angel@angelopez.ca"><img class="icon" src="http://image.flaticon.com/icons/svg/12/12194.svg"></a>
+				<a href="https://ca.linkedin.com/in/theangelopez"><img class="icon" src="http://image.flaticon.com/icons/svg/34/34227.svg"></a>
+				<a href="https://github.com/theAngeLopez"><img class="icon" src="http://image.flaticon.com/icons/svg/25/25231.svg"></a>
+				<a href="https://twitter.com/theAngeLopez"><img class="icon" src="http://image.flaticon.com/icons/svg/33/33985.svg"></a>
+				<a href="http://angelcake.co"><img class="icon" src="http://image.flaticon.com/icons/svg/66/66992.svg"></a>
+			</ul>
+		</div>
+
+	</main>
 
 </body>
-
 </html>

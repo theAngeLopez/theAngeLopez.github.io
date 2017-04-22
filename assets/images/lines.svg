@@ -1,0 +1,20 @@
+<svg width="580" height="328" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="330" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <line stroke-opacity="0.95" stroke="#ac7976" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_1" y2="334.500003" x2="113.500002" y1="84.5" x1="-22.5" stroke-width="7" fill="none"/>
+  <line stroke-opacity="0.95" stroke="#ac7976" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_2" y2="-7.5" x2="194.5" y1="278.500014" x1="-11.500003" stroke-width="7" fill="none"/>
+  <line stroke-opacity="0.95" stroke="#ac7976" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_3" y2="305.5" x2="592.5" y1="-29.499984" x1="379.499997" stroke-width="7" fill="none"/>
+  <line stroke-opacity="0.95" stroke="#ac7976" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="161.499998" x2="615.499994" y1="355.500001" x1="333.499986" stroke-width="7" fill="none"/>
+  <line stroke-opacity="0.95" stroke="#ac7976" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_5" y2="216.499993" x2="-11.499978" y1="345.000007" x1="262.500004" stroke-width="7" fill="none"/>
+  <line stroke-opacity="0.95" stroke="#ac7976" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_6" y2="-5.5" x2="167.5" y1="88.500002" x1="-24.500011" stroke-width="7" fill="none"/>
+  <line stroke-opacity="0.95" stroke="#ac7976" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_7" y2="136.500007" x2="581.500002" y1="-22.499995" x1="252.500006" stroke-width="7" fill="none"/>
+ </g>
+</svg>

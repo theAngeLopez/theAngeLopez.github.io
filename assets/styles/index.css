@@ -1,6 +1,7 @@
 body {
   background-image: url('../images/marble.jpg');
   background-attachment: fixed;
+  background-size: 100%;
   width: 100%;
   min-width: 500px;
   font-family: 'News Cycle', sans-serif, Arial;
@@ -8,7 +9,7 @@ body {
 }
 
 .main {
-  top: 60px;
+  /*top: 60px;*/
 }
 
 header {
@@ -42,6 +43,10 @@ header div {
   width: 100%;
   height: 50px;
   margin-bottom: 60px;
+}
+
+.navbar-fixed-main {
+  margin-top: 60px;
 }
 
 #navbar {
@@ -104,12 +109,13 @@ footer {
 }
 
 .proimg {
-  width: 500px;
+  width: 100%;
 }
 
 #projects {
   /*margin-top: 60px;*/
   text-align: center;
+  background: white;
 }
 
 #projects ul {
@@ -133,25 +139,42 @@ footer {
   padding: 1em;
   text-align: center;
   font-size: 2rem;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(172, 121, 118, 0.3);
   margin: 0px;
+  color: #333;
+}
+
+.main-header {
+  background-image: url('../images/triangles.svg');
 }
 
 main {
-  margin: 0px -10px;
+  margin: 0px;
 }
 
 .flex-grid {
+  padding: 20px 0;
   display: flex;
   justify-content: space-between;
 }
 .col {
   flex: 1;
-  width: 50%;
+  max-width: 50%;
 }
 
 @media (max-width: 400px) {
   .flex-grid {
     display: block;
   }
+}
+
+.project-info {
+  padding: 50px;
+  color: #444;
+}
+
+.project-img {
+  opacity: 0.7;
+  margin: 0 10px;
+  filter: blur(1px);
 }

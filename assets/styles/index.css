@@ -3,7 +3,7 @@ body {
   background-attachment: fixed;
   background-size: 100%;
   width: 100%;
-  min-width: 500px;
+  min-width: 600px;
   font-family: 'News Cycle', sans-serif, Arial;
   margin: 0;
 }
@@ -17,6 +17,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.header__lines {
+  min-width: 500px;
 }
 
 header img {
@@ -98,6 +102,7 @@ footer {
 .contact__menu li img:hover {
   opacity: 0.5;
 }
+
 .icon {
   width: 40px;
   margin: 0px 20px;
@@ -113,28 +118,10 @@ footer {
 }
 
 #projects {
-  /*margin-top: 60px;*/
   text-align: center;
   background: white;
 }
 
-#projects ul {
-  list-style-type: none;
-  /*columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2; */
-}
-
-#projects li {
-  height: inherit;
-  width: 100%;
-  margin-bottom: 10%;
-}
-#projects p {
-  display: block;
-  text-align: center;
-  padding: 0px 15%;
-}
 #projects h2 {
   padding: 1em;
   text-align: center;
@@ -171,10 +158,18 @@ main {
 .project-info {
   padding: 50px;
   color: #444;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .project-img {
   opacity: 0.7;
   margin: 0 10px;
   filter: blur(1px);
+}
+
+.project-img a {
+  width: 200px;
 }
